@@ -1,0 +1,156 @@
+body {
+    background-image: url(images/backforrest.png);
+}
+img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #FCFFCD;
+    border-radius: 80px;
+}
+li {
+    list-style: none;
+}
+h5 {
+    font-family: Times;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 0px;
+    line-height: 14px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    font-size: 13px;
+    font-family: Courier;
+}
+input {
+    text-align: center;
+    display: flex;
+    /*border: 2px black solid;*/
+    width: 190px;
+    /*border-radius: 30px;*/
+    height: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;*/
+}
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#wrap-the-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#about-items {
+    display: flex;
+    justify-content: center;
+}
+#comment-input {
+    height: 40px;
+    width: 190px;
+}
+#comment-button {
+    /*border: 3px red solid;*/
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+#main-page-more-button {
+    background-color: #BBFFA2;
+    border: 3px solid #FCFFCD;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.comments {
+    display: flex;
+    justify-content: center;
+    /*width: 100px;*/
+}
+#navi-menu-font {
+    background-color: #BBFFA2;
+    border: 5px solid #FCFFCD;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: Courier;
+    font-size: 60px;
+
+    position: relative;
+    bottom: 0;
+    transition: bottom ease 0.5s;
+}
+#navi-menu-font:hover {
+    bottom: -15px;
+}
+
+
+
+.navi-menu {
+    /*border: blue solid 3px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main-info {
+    border: 4px #FCFFCD solid;
+    border-style: groove;
+    width: 200px;
+    border-radius: 20px;
+
+}
+.main-info {
+    /*border: 2px solid black;*/
+    font-size: 16px;
+    line-height: 10px;
+}
+
+@keyframes grow {
+    from {
+      transform: scale(0);
+        }
+        to {
+          transform: scale(1);
+        }
+
+    /*
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}*/
+}
+
+#about-images {
+    border: solid #FCFFCD 5px;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+
+    position: relative;
+    animation-name: grow;
+    animation-duration: 2s;
+}
+#bounce-image {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#bounce-image:hover {
+    opacity: 1;
+    top: -30px;
+}

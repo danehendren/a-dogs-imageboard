@@ -1,0 +1,27 @@
+
+
+<form id="upload-form" method="post" ng-submit="submit()">
+    <input ng-model="title" type="text" name="title" placeholder="title" align="middle">
+    <input ng-model="username" type="text" name="username" placeholder="username">
+    <input ng-model="description" type="text" name="description" placeholder="description">
+    <input ng-model="file" type="file" name="file">
+    <button type="submit" name="button">Upload Stuff</button>
+</form>
+
+<div ng-controller="imagesController">
+    <!-- <h3>{{message}}</h3> -->
+    <ul ng-if="images.length > 0" id="wrap-the-images">
+        <li ng-repeat="image in images | limitTo:limit" id="bounce-image">
+            <a ui-sref="singleImage({imageId: {{image.id}} })">
+                <img src="{{image.image}}">
+            </a>
+            <div id="main-info">
+                <p class="main-info">Title: {{image.title | limitTo: 7}}</p>
+                <p class="main-info">User: {{image.username}}</p>
+                <p class="main-info">About: {{image.description | limitTo: 10}}</p>
+            </div>
+        </li>
+        <li ng-repeat="image in images"> </li>
+        <button ng-click="moreImagesFn()" type="button" name="more" id="main-page-more-button">More Images</button>
+    </ul>
+</div>

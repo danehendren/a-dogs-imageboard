@@ -1,0 +1,20 @@
+<main>
+    <div id="about-items">
+        <h4><img src="{{photo.image}}" id="about-images"> </h4>
+    </div>
+    <h5>Title: {{photo.title}}   </h5>
+    <h5>User: {{photo.username}}</h5>
+    <h5>Description: {{photo.description}}</h5>
+    <div ng-repeat="comment in comments | limitTo:limit" class="comments" >
+        <p>{{comment.comment}}</p>
+        <p>{{comment.username}}</p>
+    </div>
+    <form method="post" ng-submit="submitComment()">
+        <button ng-click="moreComments()" name="button" id="comment-button">More Comments</button>
+        <input ng-model="username" type="text" name="username" value="" placeholder="username"></input>
+        <input ng-model="comment" type="text" name="comment" value="" id="comment-input"></input>
+        <button type="submit" name="button" >Comment</button>
+    </form>
+
+
+</main>
