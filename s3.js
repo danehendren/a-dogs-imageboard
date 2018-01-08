@@ -4,7 +4,7 @@ const fs = require('fs');
 let secrets;
 
 if (process.env.NODE_ENV == 'production') {
-    secrets = process.env; 
+    secrets = process.env;
 } else {
     secrets = require('./secrets');
 }
@@ -12,7 +12,7 @@ if (process.env.NODE_ENV == 'production') {
 const client = knox.createClient({
     key: secrets.awsKey,
     secret: secrets.awsSecret,
-    bucket: 'dogboarddog'
+    bucket: 'bark-board'
 });
 //========================file name after uploaded
 exports.upload = function(file) {
