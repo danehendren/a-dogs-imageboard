@@ -5,7 +5,6 @@ img {
     height: 150px;
     width: 150px;
     border: 5px solid #FCFFCD;
-    border-radius: 80px;
 }
 li {
     list-style: none;
@@ -46,13 +45,11 @@ ul {
     display: flex;
     flex-direction: row-reverse;
 }
-
 #wrap-the-images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-
 #about-items {
     display: flex;
     justify-content: center;
@@ -62,10 +59,9 @@ ul {
     width: 190px;
 }
 #comment-button {
-    /*border: 3px red solid;*/
     width: 200px;
     height: 30px;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     font-size: 15px;
 }
 #main-page-more-button {
@@ -73,7 +69,7 @@ ul {
     border: 3px solid #FCFFCD;
     height: 80px;
     width: 80px;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
     cursor: pointer;
 }
 .comments {
@@ -84,11 +80,10 @@ ul {
 #navi-menu-font {
     background-color: #BBFFA2;
     border: 5px solid #FCFFCD;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
     text-decoration: none;
     font-family: Courier;
     font-size: 60px;
-
     position: relative;
     bottom: 0;
     transition: bottom ease 0.5s;
@@ -96,11 +91,7 @@ ul {
 #navi-menu-font:hover {
     bottom: -15px;
 }
-
-
-
 .navi-menu {
-    /*border: blue solid 3px;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,15 +101,13 @@ ul {
     border: 4px #FCFFCD solid;
     border-style: groove;
     width: 200px;
-    border-radius: 20px;
-
+    /*border-radius: 20px;*/
 }
 .main-info {
     /*border: 2px solid black;*/
     font-size: 16px;
     line-height: 10px;
 }
-
 @keyframes grow {
     from {
       transform: scale(0);
@@ -126,7 +115,6 @@ ul {
         to {
           transform: scale(1);
         }
-
     /*
     0%   { left:0px; top:0px;}
     25%  { left:200px; top:0px;}
@@ -139,8 +127,7 @@ ul {
     border: solid #FCFFCD 5px;
     height: 400px;
     width: 400px;
-    border-radius: 200px;
-
+    /*border-radius: 200px;*/
     position: relative;
     animation-name: grow;
     animation-duration: 2s;
