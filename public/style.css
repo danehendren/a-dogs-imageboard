@@ -29,7 +29,7 @@ input {
     display: flex;
     /*border: 2px black solid;*/
     width: 190px;
-    /*border-radius: 30px;*/
+    border-radius: 30px;
     height: 20px;
 }
 form {
