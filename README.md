@@ -9,7 +9,7 @@
 
 <h1>Screenshots:</h1>
 
- <img src="/public/barkboardone.png" />
+ <img src="/public/images/barkboardone.png" />
  <!-- <img src="/public/pupparktwo.png" />
  <img src="/public/pupparkthree.png" />
  <img src="/public/pupparkfour.png" /> -->
