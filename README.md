@@ -14,4 +14,4 @@
  <img src="/public/pupparkthree.png" />
  <img src="/public/pupparkfour.png" /> -->
 
- <h1>Comments:</h1> <p>A platform where users can find other pups to setup playdates with.</p>
+ <h1>Comments:</h1> <p>Bark Board where pups can eventually contact one another in hopes of bumping butts in the bark park.</p>
