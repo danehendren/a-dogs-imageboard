@@ -9,9 +9,9 @@
 
 <h1>Screenshots:</h1>
 
- <img src="/public/pupparkone.png" />
+ <img src="/public/barkboardone.png" />
  <!-- <img src="/public/pupparktwo.png" />
  <img src="/public/pupparkthree.png" />
  <img src="/public/pupparkfour.png" /> -->
 
- <h1>Comments:</h1> <p>A priority placing pups politely inside parameters where pups play freely without leashes.</p>
+ <h1>Comments:</h1> <p>A platform where users can find other pups to setup playdates with.</p>

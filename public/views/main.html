@@ -13,7 +13,8 @@
     <ul ng-if="images.length > 0" id="wrap-the-images">
         <li ng-repeat="image in images | limitTo:limit" id="bounce-image">
             <a ui-sref="singleImage({imageId: {{image.id}} })">
-                <img src="{{image.image}}">
+
+                <img src="{{photo.image}}">
             </a>
             <div id="main-info">
                 <p class="main-info">Title: {{image.title | limitTo: 7}}</p>

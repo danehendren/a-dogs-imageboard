@@ -90,9 +90,7 @@ app.post('/add-comment/:imageId', (req, res) => {
     var comment = req.body.comment
     var imageId = req.params.imageId
     var username = req.body.username
-
-    console.log('this is the stuff', comment, username, imageId);
-
+    // console.log('this is the stuff', comment, username, imageId);
     dbGet.uploadComment(req.body.comment, req.params.imageId, req.body.username)
     .then((results) => {
         res.json(results);

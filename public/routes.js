@@ -75,7 +75,7 @@ angular.module('app.routes', ['ui.router'])
                     });
 
                     $scope.submitComment = function() {
-                        
+
                         var comment = $scope.comment
                         var username = $scope.username
 
